@@ -15,5 +15,56 @@ html, body {
   position: absolute;
   bottom: 0;
   left: 0;
+  animation:moveRight 3s forwards;
+  /*forwards leaves the animation where it ended*/
 }
+
+
+@keyframes moveRight {
+  from{
+    background-color: green;
+    margin-left:0;
+  }
+  to{
+    height:80px;
+    width:80px;
+    margin-left:500px;
+    background-color: blue;
+    transform: rotate(-360deg);
+  }
+}
+
+
+/*
+@keyframes moveRight{
+  0%{
+    background-color: green;
+    margin-left:0;
+  }
+  25%{
+    background-color: blue;
+    margin-left:500px;
+    margin-top:0;
+  }
+  50%{
+    background-color: red;
+    margin-left:500px;
+    margin-top:500px;
+  }
+
+  75%{
+    background-color: green;
+    margin-left:0;
+    margin-top:500px;
+  }
+
+  100%{
+    background-color: orange;
+    margin-left:0;
+    margin-top:0;
+  }
+
+}
+*/
+
 

@@ -1,0 +1,43 @@
+#heart-container {
+  height: 300px;
+  width: 300px;
+  border: 2px solid black;
+  position: relative;
+}
+
+#triangle {
+  height: 0;
+  width: 0;
+  border-top: red solid 65px;
+  border-left: transparent solid 100px;
+  border-right: transparent solid 100px;
+  position: absolute;
+  bottom: 20px;
+  left: 40px;
+}
+
+.circle {
+  background: red;
+  border-radius: 50%;
+  height: 105px;
+  width: 105px;
+  position: absolute;
+  bottom: 40px;
+}
+
+.c1 {
+  left: 0px;
+}
+
+.c2 {
+  right: 0px;
+}
+
+#fill {
+  position: absolute;
+  background: red;
+  width: 50px;
+  height: 30px;
+  bottom: 59px;
+  left: -8px;
+}
